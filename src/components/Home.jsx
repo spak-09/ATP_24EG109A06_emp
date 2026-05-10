@@ -1,5 +1,5 @@
 import {useContext} from 'react'
-import { counterContextObj } from '../contexts/contextProvider'
+import { counterContextObj } from '../contexts/ContextProvider'
 import { useCounterStore } from '../store/useCounterStore'
 
 function Home() {

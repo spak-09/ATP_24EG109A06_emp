@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { counterContextObj } from "../contexts/contextProvider"
+import { counterContextObj } from "../contexts/ContextProvider"
 
 function test() {
     const {counter1,changeContext1}=useContext(counterContextObj)
